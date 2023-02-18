@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*---------------------------------------------------------*/	
+
+.head-sec {
+	height: 110px;
+	background: white;
+}
+.ctr {
+	margin: 0px 80px;
+}
+.head {
+}
+.head img {
+	margin-top: 10px;
+	float: left;
+}
+/* -------------------------------------------------sec1------------------------- */
+.head nav { 
+	/*! margin-left: 22px; */
+	margin-left: 15px;/*! padding-left: 11px; *//*! margin-right: 9px; */
+}
+.head nav a {
+	font-size: 14px;
+	color: #453592;
+	float: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 70px;
+	margin-top: 54px;
+	/*! margin: 0px 0px; */
+	font-weight: 400;
+}
+.head button {
+	margin-top: 41px;
+	margin-left: 68px;
+	padding: 9px 11px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background: #e26c00;
+	color: white;
+	border: none;
+	border-radius: 11px;/*! float: revert; */
+}
+/*-------------------------------------------------*/
+
+
+.bnr-sec {
+	height: 508px;
+	background: url(images/ksskpsd_06.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bnr {
+	padding-top: 247px;
+}
+.bnr h1 {
+	font-size: 24px;
+	color: #ffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: black;
+	width: 502px;
+	padding: 7px 3px;
+	margin-left: 96px;
+	opacity: 0.6;
+}
+/*--------------------------------------------------------------*/
+
+
+
+.sai-sec {
+	height: 236px;
+	background: white;
+}
+.sai {
+}
+.sai h1 {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+	margin-left: 550px;
+	color: #4c3696;
+	margin-top: 17px;
+}
+.sai nav {
+	float: right;
+	margin-top: 19px;
+}
+.sai nav a {
+}
+.sai nav a img {
+}
+.sai p {
+	padding-top: 90px;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	color: #414142;
+	padding: 85px 100px 0px;
+	line-height: 30px;
+}
+/*--------------------------------------------------------------*/
+
+
+.siva-sec {
+	height: 382px;
+	background: url(images/ftrpsd_02.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hh {
+	width: 23%;
+	float: left;
+	margin-left: 90px;
+	margin-top: 70px;
+	background: #fff;
+	height: 255px;
+}
+.hh img {
+	width: 100%;
+}
+.hh h2 {
+	text-align: center;
+	margin-top: 4px;
+}
+/*---------------------------------------------------------*/	
+
+.kk-sec {
+	background: #dd9349;
+	height: 296px;
+	text-align: center;
+}
+.kk {
+}
+.kk h1 {
+	font-size: 32px;
+	padding-top: 32px;
+}
+.kk p {
+	font-size: 20px;
+	width: 950px;
+	margin-top: 31px;
+	margin-left: 113px;
+	line-height: 28px;
+}
+.kk h3 {
+	margin-top: 24px;
+	margin-left: 17px;
+	font-size: 24px;
+}
+.kk h4 {
+	font-size: 18px;
+	margin-left: 17px;
+}
+/*---------------------------------------------------------*/
+
+
+.ftr-sec{ height:240px;
+          background:#3e4043;
+	}
+
+.ftr{
+	width: 29%;
+	float: left;
+	margin-left: 50px;
+	}
+	
+.ftr h2{
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	/*! list-style: none; */
+	margin-top: 7px;
+	}
+	
+.ftr ul{
+	}
+
+.ftr ul li{
+	color: #fff;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 29px;
+	}
+	
+.ftr ul li strong{
+	}
+	
+.ftr input{
+	width: 71%;
+	font-size: 14px;
+	border: 1px solid black;
+	padding: 6px 7px;
+	margin-right: 62px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin-top: 17px;
+	}
+	
+.ftr button{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 6px 21px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin-top: 17px;
+	background: orange;
+	border: none;
+	color: white;
+	}							
+		
+/*--------------------------------------------------------------*/
+
+
+.last-sec{ height:66px;
+           background:orange;
+	}
+	
+.last{
+	}
+	
+.last p{
+	padding-top: 29px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	/*! text-transform: uppercase; */
+	text-align: center;
+	float: left;
+	margin-left: 167px;
+	color: white;
+	}
+	
+.last nav{
+	float: right;
+	margin-top: 21px;
+	}
+
+.last nav a{
+	}
+
+.last nav a img{
+	}	
